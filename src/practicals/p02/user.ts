@@ -16,6 +16,6 @@ export class User {
         return this.age;
     }
     getFullName(){
-        return `${this.firstname}${this.lastname}? || ${this.firstname} ${this.lastname}`
+        return `${this.firstname} ${this.lastname}`.trim()
     }
 }
