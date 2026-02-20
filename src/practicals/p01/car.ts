@@ -2,15 +2,15 @@ export class Car {
 brand: string = ''
 model: string = ''
 start(): void {
-    console.log("Toyota Camry is starting...")
+    console.log(this.brand + this.model + "is starting...")
 }
 accelerate(): void {
-    console.log("Toyota Camry is accelerating...")
+    console.log(this.brand + this.model + "is accelerating...")
 }
 brake(): void {
-    console.log("Toyota Camry is braking...")
+    console.log(this.brand + this.model + "is braking...")
 }
 stop(): void {
-    console.log("Toyota Camry is stopping...")
+    console.log(this.brand + this.model + "is stopping...")
 }
 }
