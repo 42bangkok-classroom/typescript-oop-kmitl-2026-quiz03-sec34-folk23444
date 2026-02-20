@@ -1,6 +1,6 @@
 export class User {
-    setFirstname: String = ""
-    setLastname: String = ""
+setFirstname: string = ""
+setLastname: string = ""
 
     private age: number = 0
 
