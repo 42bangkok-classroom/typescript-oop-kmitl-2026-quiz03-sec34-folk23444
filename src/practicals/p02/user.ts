@@ -1,1 +1,20 @@
-export class User {}
+export class User {
+    setFirstname: string = ''
+    setLastname: string = ''
+
+    private age: number = 0
+
+    static BIRTH_YEAR: number = 2000
+
+    setAge(age: number): void {
+        this.age = age
+    }
+
+    getAge(): number {
+        return this.age
+    }
+
+    getFullName(): string {
+        return this.setFirstname + ' ' + this.setLastname
+    }
+}
