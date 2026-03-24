@@ -1,10 +1,10 @@
 export class OnlineCourse {
-  public courseName:string = "";
-  public maxStudents:number = 0;
-  private enrolledStudents:number = 0;
+  public courseName:string;
+  public maxStudents:number;
+  private enrolledStudents:number;
   private isOpen:boolean = true
 
-  Constructor(courseName:string,maxStudents:number){
+  constructor(courseName:string,maxStudents:number){
     this.courseName = courseName;
     this.maxStudents = maxStudents;
     this.enrolledStudents = 0;
