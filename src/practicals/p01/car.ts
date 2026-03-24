@@ -1,10 +1,7 @@
 export class Car {
-brand = "Toyota"
-model = "Camry"    
-    constructor(brand:string,model:string){
-        this.brand = brand
-        this.model = model
-    }
+brand:string = ""
+model:string = ""  
+
 start():void {
     console.log(`${this.brand} ${this.model} is starting...`)
 }
