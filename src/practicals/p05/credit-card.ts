@@ -2,9 +2,9 @@ import { Payable } from "./payable";
 import { PaymentMethod } from "./payment-method";
 
 export class CreditCard extends PaymentMethod implements Payable {
-    private cardNumber:number;
+    private cardNumber:string;
 
-constructor(accountName:string,cardNumber:number){
+constructor(accountName:string,cardNumber:string){
     super(accountName);
     this.cardNumber = cardNumber;
 }
