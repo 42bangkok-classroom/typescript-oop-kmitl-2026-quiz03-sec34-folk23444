@@ -1,4 +1,4 @@
-export class car {
+export class Car {
 brand = "Toyota"
 model = "Camry"    
     constructor(brand:string,model:string){
