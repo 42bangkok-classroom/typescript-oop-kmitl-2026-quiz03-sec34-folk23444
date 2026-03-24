@@ -15,7 +15,7 @@ character.receiveDamage(10);
 console.log(character.getHealth());
 // 90
 
-const warrior = new Warrior("King Arthur", "Excalibur", 200);
+const warrior = new Warrior({ name: "King Arthur", weapon: "Excalibur", health: 200 });
 
 console.log(warrior.getName());
 // King Arthur
