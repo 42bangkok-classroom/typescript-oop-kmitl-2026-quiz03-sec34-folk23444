@@ -1,8 +1,8 @@
 export class User {
     public firstname:string = "";
     public lastname:string = "";
-    private age:Number = 0;
-    static BIRTH_YEAR:Number = 2000;
+    private age:number = 0;
+    static BIRTH_YEAR:number = 2000;
 
     setFirstname(Firstname:string){
         this.firstname = Firstname
@@ -10,13 +10,13 @@ export class User {
     setLastname(Lastname:string){
         this.lastname = Lastname
     }
-    setAge(Age:Number){
+    setAge(Age:number){
         this.age = Age
     }
     getFullName(){
         return `${this.firstname} ${this.lastname}`;
     }
     getAge(){
-        return `${this.age}`;
+        return this.age;
     }
 }
