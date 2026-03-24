@@ -7,11 +7,11 @@ export class EWallet extends PaymentMethod implements Payable {
         super(accountName)
         this.walletId = walletId
     }
-    processPayment(amount: number):boolean{
+    public processPayment(amount: number):boolean{
         console.log(`Cutting e-wallet balance: ${amount} Baht`)
         return true
     }
-    getPaymentFee(amount: number):number{
-        return amount * 0.1
+    public getPaymentFee(amount: number):number{
+        return amount * 0.01
     }
 }

@@ -9,10 +9,10 @@ constructor(accountName:string,cardNumber:string){
     this.cardNumber = cardNumber;
 }
 public processPayment(amount: number):boolean{
-    console.log(`Cutting e-wallet balance: ${amount} Baht`);
+    console.log(`Cutting credit card balance: ${amount} Baht`);
     return true;
 }
 public getPaymentFee(amount: number):number{
-    return amount * 0.2;
+    return amount * 0.02;
 }
 }
